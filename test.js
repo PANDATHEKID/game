@@ -467,6 +467,7 @@ roll.onclick=function()
 	if(i==0)//to change the contents of turn and player A's turn
 	{	//A's turn
 		turn.innerHTML="TURN: PLAYER B";
+		check_turn.innerHTML="TURN: PLAYER B";
 		if(random==6 && a_1.className=="" && a_2.className=="")//here both the tockens of A are present in home. First move A1 
 		{
 			moveautoA1(a_1);
@@ -517,6 +518,7 @@ roll.onclick=function()
 	else if(i==1)//B's turn
 	{	
 		turn.innerHTML="TURN: PLAYER A";
+		check_turn.innerHTML="TURN: PLAYER A";
 		if(random==6 && b_1.className=="" && b_2.className=="" )//here both the tockens of A are present in home. First move A1 
 		{
 			moveautoB1(b_1);
